@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "site": "portable-heater",
+    "source": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}
