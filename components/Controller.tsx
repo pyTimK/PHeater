@@ -16,7 +16,7 @@ const Controller: React.FC<ControllerProps> = ({
   const decrementTargetTemp = () => updateTargetTemp(targetTemp - 1);
 
   return (
-    <div className="mt-20 flex flex-col items-center space-y-3">
+    <div className="mt-10 flex flex-col items-center space-y-3">
       <div className="flex flex-row space-x-6 items-center">
         <Minus onClick={decrementTargetTemp} />
         <div className="flex flex-row items-start justify-center border-2 border-red rounded-xl py-4 w-24">

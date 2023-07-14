@@ -6,14 +6,16 @@ const Home: React.FC = () => {
     <div className="flex flex-col items-center justify-center columns-1 mt-1">
       <Title />
       <TempWrapper />
-      <p className="text-sm font-thin absolute bottom-2">© 2023 PHeater</p>
+      {/* <footer className="text-sm font-thin absolute bottom-2">
+        © 2023 PHeater
+      </footer> */}
     </div>
   );
 };
 
 const Title = () => {
   return (
-    <div className="flex flex-row items-center justify-center opacity-90 mb-20">
+    <div className="flex flex-row items-center justify-center opacity-90 mb-10">
       <img src="/icon.png" width={40} height={40} alt="Logo" />
       <h1 className={`${skyerFont.className} text-2xl text-white ml-3`}>
         P Heater
