@@ -7,4 +7,5 @@
 
 body {
   overscroll-behavior: contain;
+  padding: 0;
 }

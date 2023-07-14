@@ -3,12 +3,12 @@ import { skyerFont } from "@/styles/fonts";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center columns-1 mt-1">
-      <Title />
-      <TempWrapper />
-      {/* <footer className="text-sm font-thin absolute bottom-2">
-        © 2023 PHeater
-      </footer> */}
+    <div className="flex flex-col items-center justify-start columns-1 min-h-screen">
+      <div className="content flex-grow flex flex-col items-center justify-start mt-10">
+        <Title />
+        <TempWrapper />
+      </div>
+      <footer className="text-sm font-thin pb-1 pt-10">© 2023 PHeater</footer>
     </div>
   );
 };

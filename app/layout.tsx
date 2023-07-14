@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
       <body
-        className={`${inter.className} bg-midnight text-white content-center mx-auto p-4`}
+        className={`${inter.className} bg-midnight text-white content-center mx-auto`}
       >
         {children}
       </body>
