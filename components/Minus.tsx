@@ -1,4 +1,5 @@
 import { MouseEventHandler } from "react";
+import { motion } from "framer-motion";
 
 interface MinusProps {
   onClick: MouseEventHandler;
@@ -6,7 +7,7 @@ interface MinusProps {
 
 const Minus: React.FC<MinusProps> = ({ onClick }) => {
   return (
-    <div onClick={onClick}>
+    <motion.div onClick={onClick} whileTap={{ scale: 0.8 }}>
       <svg
         width="51"
         height="50"
@@ -29,7 +30,7 @@ const Minus: React.FC<MinusProps> = ({ onClick }) => {
           />
         </g>
       </svg>
-    </div>
+    </motion.div>
   );
 };
 

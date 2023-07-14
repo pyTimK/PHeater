@@ -42,7 +42,7 @@
   "scope": "/",
   "start_url": "/",
   "description": "Welcome to our innovative portable heater project website! Using NodeMCU technology, we upload real-time temperature data while allowing users to easily set their desired temperature. Stay warm and in control with our user-friendly platform.",
-  "display": "fullscreen",
-  "theme_color": "#17171B",
-  "background_color": "#FFFFFF"
+  "display": "standalone",
+  "theme_color": "#1E293B",
+  "background_color": "#1E293B"
 }

@@ -4,3 +4,7 @@
 
 :root {
 }
+
+body {
+  overscroll-behavior: contain;
+}

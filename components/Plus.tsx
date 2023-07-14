@@ -1,4 +1,5 @@
 import { MouseEventHandler } from "react";
+import { motion } from "framer-motion";
 
 interface PlusProps {
   onClick: MouseEventHandler;
@@ -6,7 +7,7 @@ interface PlusProps {
 
 const Plus: React.FC<PlusProps> = ({ onClick }) => {
   return (
-    <div onClick={onClick}>
+    <motion.div onClick={onClick} whileTap={{ scale: 0.8 }}>
       <svg
         width="51"
         height="52"
@@ -29,7 +30,7 @@ const Plus: React.FC<PlusProps> = ({ onClick }) => {
           />
         </g>
       </svg>
-    </div>
+    </motion.div>
   );
 };
 
